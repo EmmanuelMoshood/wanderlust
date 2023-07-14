@@ -1,5 +1,6 @@
 //import dependencies
-const express = require('express')
+const express = require('express');
+const dotenv = require('dotenv')
 
 
 
@@ -16,6 +17,7 @@ app.get('/', (req, res) => {
 
 
 //declare variable from secrets.env or assign 3000
+dotenv.config({path: 'secrets.env'})
 const Port = process.env.PORT || 3000
 //start backend http server
 app.listen(Port, () => {
