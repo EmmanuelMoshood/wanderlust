@@ -1,6 +1,6 @@
 # wanderlust
 
-## Travel vacation dairy for loved ones
+## Travel Adventure Companion for Loved Ones
 
 Designed with love and adventure in mind. I created this application for my girl friend and I to share our travel goals and expreiences together.
 
@@ -35,3 +35,6 @@ Social Sharing: Share your travel plans, journal entries, and favorite destinati
 Data Backup and Sync: Safeguard your travel data with automatic backups and sync across multiple devices. Whether you switch phones or use the app on different devices, your travel plans and memories will always be securely stored and accessible.
 
 These features aim to enhance your travel planning, organization, and sharing experiences while fostering a deeper connection with your partner through the shared love of exploration.
+
+#Summary
+"Wanderlust: Adventure Companion" is a comprehensive travel app designed exclusively for adventurous couples. Seamlessly collaborate, plan, and document your dream vacations together. Create a personalized travel bucket list, curate itineraries, capture memories in a digital journal, discover recommendations, and stay organized with reminders. Embrace the joy of exploration hand in hand with your loved one, as Wanderlust becomes your trusted companion for unforgettable adventures.
