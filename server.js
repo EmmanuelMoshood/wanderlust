@@ -2,7 +2,8 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const morgan = require('morgan');
-const bodyparser = require('body-parser')
+const bodyparser = require('body-parser');
+const path = require('path')
 
 
 
@@ -24,13 +25,14 @@ app.set('view engione', 'ejs')
 
 
 //load assets to server
-app.use('/css', express.static(path.resolve(__dirname, "asset/css")))
-app.use('/img', express.static(path.resolve(__dirname, "asset/img")))
-app.use('/js', express.static(path.resolve(__dirname, "asset/js")))
+app.use('/css', express.static(path.resolve(__dirname, "assets/css")))
+app.use('/img', express.static(path.resolve(__dirname, "assets/img")))
+app.use('/js', express.static(path.resolve(__dirname, "assets/js")))
 
 //default root route 
 app.get('/', (req, res) => {
-    res.send("Wanderlust application is live!")
+    // res.send("Wanderlust application is live!")
+    res.render('index.ejs')
 })
 
 
