@@ -1,0 +1,17 @@
+body {
+  background-color: #282c34;
+}
+
+.book__list {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+  .book__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

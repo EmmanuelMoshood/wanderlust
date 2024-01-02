@@ -1,40 +1,70 @@
-# wanderlust
+# Getting Started with Create React App
 
-## Travel Adventure Companion for Loved Ones
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Designed with love and adventure in mind. I created this application for my girlfriend and me to share our travel goals and experiences together.
+## Available Scripts
 
-With Wanderlust, you can effortlessly capture and organize all the places we both yearn to visit. Create a personalized travel bucket list, where we can curate a collection of dream destinations, from breathtaking landscapes to vibrant cities waiting to be explored. Say goodbye to scattered notes and endless browser tabs - Wanderlust keeps everything in one place.
+In the project directory, you can run:
 
-Seamlessly collaborate and sync preferences, ensuring every aspect of our trip is tailored to our shared tastes and interests.
+### `npm start`
 
-An app where we can coordinate our schedules effortlessly and mark important dates for our upcoming adventures. Wanderlust's intuitive calendar system allows us to set departure dates, arrival times, and even reminders for booking accommodations or securing travel essentials. Basically to stay on track and eliminate the stress of planning with Wanderlust's smart notifications and timely reminders.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-As you embark on your journeys, Wanderlust becomes your digital travel journal. Capture precious moments and memories with ease. Document each destination you explore together, adding photos, personal notes, and even ratings to remember every special detail. Relive those cherished experiences whenever you desire, and share your travel log with family and friends to inspire their wanderlust too.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Application Features
+### `npm test`
 
-Destination Wishlist: Create a personalized travel bucket list by saving and organizing your dream destinations. Browse a vast database of stunning locations and add them to your wishlist with a single tap.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Collaborative Planning: Seamlessly collaborate with your partner to plan your vacations together. Please share ideas, discuss preferences, and jointly create your travel itineraries, making sure that every decision is made together.
+### `npm run build`
 
-Travel Calendar: Keep track of important dates, including departure, arrival, and activities, using a dedicated travel calendar. Set reminders for booking accommodations, flights, or other necessary arrangements, so you never miss a beat.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Interactive Maps: Explore destinations visually with interactive maps that display points of interest, attractions, and recommended places. Get a comprehensive overview of your travel plans and make informed decisions about where to go and what to see.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Travel Journal: Document your travel experiences and create a digital travel journal. Add photos, write personal notes, and rate your experiences to capture the essence of each destination. Look back on your adventures and share them with others.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Recommendations and Insights: Discover curated recommendations and insider tips for each location. Get suggestions for attractions, restaurants, local experiences, and hidden gems to enhance your travel itinerary and make the most of your journey.
+### `npm run eject`
 
-Notifications and Reminders: Receive timely notifications and reminders for upcoming trips, booking deadlines, or essential activities. Stay organized and stress-free with Wanderlust's proactive alerts that keep you on track.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Offline Access: Access your travel plans, maps, and saved destinations even when you're offline or in areas with limited connectivity. Wanderlust ensures that you have your travel information at your fingertips, regardless of internet availability.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Social Sharing: Share your travel plans, journal entries, and favorite destinations with friends and family on social media. Inspire others with your wanderlust-filled adventures and create a community of fellow travel enthusiasts.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Data Backup and Sync: Safeguard your travel data with automatic backups and sync across multiple devices. Whether you switch phones or use the app on different devices, your travel plans and memories will always be securely stored and accessible.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-These features aim to enhance your travel planning, organization, and sharing experiences while fostering a deeper connection with your partner through the shared love of exploration.
+## Learn More
 
-#Summary
-"Wanderlust: Adventure Companion" is a comprehensive travel app designed exclusively for adventurous couples. Seamlessly collaborate, plan, and document your dream vacations together. Create a personalized travel bucket list, curate itineraries, capture memories in a digital journal, discover recommendations, and stay organized with reminders. Embrace the joy of exploration hand in hand with your loved one, as Wanderlust becomes your trusted companion for unforgettable adventures.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
