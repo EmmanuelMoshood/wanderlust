@@ -1,14 +1,10 @@
 import "./App.css";
-import Book from "./Book";
+import BookList from "./BookList";
 
 function App() {
   return (
-    <div className="book__list">
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
+    <div className="app">
+      <BookList />
     </div>
   );
 }

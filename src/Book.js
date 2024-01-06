@@ -1,16 +1,21 @@
 import React from "react";
 import "./Book.css";
+import BookList from "./BookList";
 
-function Book() {
+function Book(props) {
+  const { img, title, author, getBook, id, number } = props;
+
+  const callGetBook = () => {
+    getBook(id);
+  };
+
   return (
     <div className="book__container">
-      <img
-        src="https://m.media-amazon.com/images/I/71lcO4DfPsL._SL1500_.jpg"
-        alt="poster"
-        className="book__image"
-      />
-      <h2 className="book__title">Enemies of my country</h2>
-      <p className="book__author">Basket Mouth</p>
+      <img src={img} alt={title} className="book__image" />
+      <h2 className="book__title">{title}</h2>
+      <p className="book__author">{author}</p>
+      <button onClick={callGetBook}>Buy</button>
+      <div className="number">#{number + 1}</div>
     </div>
   );
 }
